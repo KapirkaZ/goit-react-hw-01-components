@@ -1,5 +1,6 @@
 import styles from './Profile.module.css';
 import PropTypes from 'prop-types';
+import defaultImage from './default.jpg';
 
 const Profile = ({ name, tag, location, avatar, stats }) => (
   <div className={styles.profile}>
