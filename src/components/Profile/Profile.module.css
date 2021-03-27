@@ -1,4 +1,5 @@
 .profile {
+  border: 1px solid blue;
   width: 400px;
   margin: 0 auto 20px;
   background: rgb(2, 0, 36);

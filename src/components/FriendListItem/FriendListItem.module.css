@@ -11,8 +11,6 @@
   box-shadow: rgba(214, 50, 50, 0.35) 0px 5px 10px;
   font-size: 18px;
   font-weight: 700;
-  width: 400px;
-  margin: 0 auto 20px;
 }
 
 .item:not(:last-child) {
@@ -39,4 +37,8 @@
 .offline {
   composes: status;
   background-color: red;
+}
+
+.FriendList {
+  border: 1px solid blue;
 }
