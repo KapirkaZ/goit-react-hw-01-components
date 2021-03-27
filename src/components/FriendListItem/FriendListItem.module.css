@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(94, 103, 226, 1) 0%,
+    rgba(205, 247, 255, 1) 100%
+  );
+  box-shadow: rgba(214, 50, 50, 0.35) 0px 5px 10px;
+  font-size: 18px;
+  font-weight: 700;
+  width: 400px;
+  margin: 0 auto 20px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.avatar {
+  margin: 0 10px;
+}
+
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: lightgreen;
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}

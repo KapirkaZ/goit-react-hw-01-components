@@ -1,5 +1,5 @@
 .profile {
-  width: 600px;
+  width: 400px;
   margin: 0 auto 20px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -20,6 +20,7 @@
   background-color: white;
   border-radius: 50%;
   margin-bottom: 25px;
+  width: 300px;
 }
 
 .name {
