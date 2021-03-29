@@ -1,6 +1,6 @@
 import styles from './Profile.module.css';
 import PropTypes from 'prop-types';
-import defaultImage from './default.jpg';
+import defaultImage from './default/default.jpg';
 
 const Profile = ({ name, tag, location, avatar, stats }) => (
   <div className={styles.profile}>
@@ -38,7 +38,7 @@ Profile.propTypes = {
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
-  stats: PropTypes.string.isRequired,
+  stats: PropTypes.number.isRequired,
 };
 
 export default Profile;

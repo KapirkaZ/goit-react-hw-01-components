@@ -5,7 +5,7 @@ const randomColor = () => '#' + Math.random().toString(16).substr(2, 6);
 
 const Statistics = ({ title, stats }) => (
   <section className={styles.statistics}>
-    <h2 className={styles.title}>{title}</h2>
+    {title && <h2 className={styles.title}>{title}</h2>}
 
     <ul className={styles.statlist}>
       {stats.map(({ id, label, percentage }) => (
